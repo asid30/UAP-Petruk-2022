@@ -1,1 +1,1 @@
-# UAP-Petruk-2022
+# Pengumpulan Ujian Akhir Praktikum mata kuliah Pemrograman Terstruktur
