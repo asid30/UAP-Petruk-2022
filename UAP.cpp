@@ -1,5 +1,6 @@
 #include <iostream>
 #include <queue>
+#include "windows.h"
 #include <conio.h>
 #define max 50
 
@@ -78,22 +79,22 @@ int main(){
         switch(menu){
 			case 1 :
 				menu1();
-				getch();
+				Sleep(700);
 				break;
 
 			case 2 :
 				menu2();
-				getch();
+				Sleep(1000);
 				break;
 
 			case 3:
 				menu3();
-				getch();
+				Sleep(700);
 				break;
 
 			case 4:
 				cout<<"Terimakasih sudah menggunakan layanan kami >.<"<<endl;
-				getch();
+				Sleep(1000);
 				exit(0);
 
 			default:
