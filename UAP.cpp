@@ -27,7 +27,7 @@ void menu1(){
 void menu2(){
     if(antrian.empty())    cout<<"Antrian kosong";
 	else{
-		cout<<"Antrian nomor <"<<antrian.front()<<"> telah selesai, silahkan untuk nomer " << antrian.front()+1 << "untuk berkonsultasi dengan customer service kami >/<";
+		cout<<"Antrian nomor <"<<antrian.front()<<"> telah selesai, \nsilahkan untuk nomer <" << antrian.front()+1 << "> untuk berkonsultasi dengan customer service kami >/<";
 	    antrian.pop();
 	}
 }
@@ -72,7 +72,7 @@ int main(){
         cout << "1. Masukan antrian\n";
         cout << "2. Antrian selanjutnya\n";
 		cout << "3. Reset harian\n";
-        cout << "4. Exit\n";
+        cout << "4. Exit\n\n";
 
         cin >> menu;
 
